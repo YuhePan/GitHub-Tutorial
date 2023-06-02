@@ -4,6 +4,40 @@ Getting started tutorial on GitHub
 GitHub 入门教程，记录自己的学习心得🧡
 
 ## 入门系列
+**先来一个简单的总结,方便查看以防忘记**  
+1.安装Git  
+2.配置ssh  
+3.clone远程仓库到本地  
+4.clone后改动提交，使用如下命令：  
+```
+git add <filename>
+git add --all
+```
+添加到“缓冲区”，然后可以通过：
+```
+git status 
+```
+查看状态，然后通过
+```
+git commit -m "<the name of this commint>"
+```
+提交改动至本地仓库，然后通过
+```
+git log
+```
+查看提交历史，最后通过
+```
+git push origin main
+```
+提交至远程仓库，亦可通过
+```
+git pull origin main
+```
+从远程仓库更新本地仓库。  
+以下为原作者内容
+
+---
+
 1. [GitHub 小白入门（一）初识界面](https://github.com/CatOneTwo/GitHub-Tutorial/issues/1)
 2. [GitHub 小白入门（二）仓库操作](https://github.com/CatOneTwo/GitHub-Tutorial/issues/2)
 3. [GitHub 小白入门（三）Git 的安装及使用](https://github.com/CatOneTwo/GitHub-Tutorial/issues/3)
